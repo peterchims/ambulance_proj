@@ -160,8 +160,46 @@ margin-right:10px;
 .amb .container .btn-grp .btn-primary:hover{
 	transition: 2s;
     background-color: transparent; }/*AMB Style Ends Here */
-   
+/*   Health Tips Styling */
+.get_amb{
+	display: none;
+}
+#health_col h1{
+	text-align: center;
+	font-family:'Roboto-Black.ttf' ;
+	color: black;
+}
+#health_col{
+	background-color: skyblue;
+	width:400px;
+}
+#health_col .caro_thumb{
+	background-color:black;
+	margin:30px auto;
+	height:250px;
+	width:400px;
+}
+#health_col .caro_thumb img{
+	 height:100px; 
+	 width:150px;
+}
+#health_col .caro_thumb h5{
+	color: red;
+	margin-left:30px;
+	font-family: 'Roboto-Bold.ttf';
+}
+#health_col .caro_thumb h4{
+	text-align: center;
+	color: red;
+	font-family: 'Roboto-Black.ttf';
+}
+#health_col .caro_thumb .thumb_p{
+	color: #FFF;
+	font-family: 'Roboto-Regular.ttf';
+	padding: 20px;
+}
 
+/* End Of Health Tips Styling */
     /* hed styling */
 .hed{
     padding-top: 80px;
@@ -307,17 +345,6 @@ margin-top: 40px;
 }
 .cover{
 	background: red ;
-/*
-	width: 100%;
-	height: 150%;
-	position:relative;
-	top: 0px;
-	right:0px ;
-	bottom: 0px;
-	z-index:999;
-	display: none;
-	background-color: rgba(255,0,0,0.7) !important;
-*/
 }
 .comp{
 	margin-top:-60px;
@@ -333,21 +360,12 @@ margin-top: 40px;
 	font-family: 'Raleway-Black.ttf';
 }
 .cancel{
-/*
-	width: 35px;
-	height: 20px;
-*/
-/*
-	padding-right: 10px;
-	padding-bottom:20px;
-*/
 	cursor: pointer;
 	font-size: 25px;
 /*	border-radius: 30px;*/
 	float: right;
 	border:2px solid rgba(0,0,0,0.4);
 	transition:0.25s;
-	
 	margin-top: -20px;
 	margin-right: -10px !important;
 	
@@ -378,8 +396,6 @@ margin-top: 40px;
 	font-family: 'Raleway-Regular.ttf';
 	font-weight:bold;
 }
-
-
  /* sub design */
 .sub{
     padding-top: 50px;
@@ -454,6 +470,13 @@ font-family: 'Roboto-Regular.ttf';
 	color: lightcoral;
 	font-family:'Roboto-Regular.ttf';
 /*	font-weight: 300;*/
+}
+.row .col-lg-4 .seun_cont{
+	font-family: 'Raleway-Regular.ttf';
+	text-transform: capitalize;
+	text-align:left;
+	font-weight: 800;
+	margin-left: 30px;
 }
 .col-lg-4 .team_icons{
 	margin-left: 20px !important;

@@ -46,9 +46,29 @@ window.addEventListener("scroll", Scroll);
 			
 		$('#het-content').fadeIn();
 		$('.amb .container .btn-grp').fadeIn();
-		$('#navbar').fadeOut();
-			
-			
+		$('#navbar').fadeOut();	
+	});
+	$('#get_me_now').on('click',function(){
+		$('.get_amb').fadeIn();
 		
 	});
+	var scrollLink = $('.scroll');
+	//Smooth Scrolling
+	scrollLink.click(function(e){
+		e.preventDefault();
+		$('body,html').animate({
+			scrollTop: $(this.hash).offset().top
+		}, 1000);
+	});
+	// Activating Link Switching
+//	$(window).scroll(function(){
+//		var scrollbarLocation = $(this).scrollTop();
+//		 scrollLink.each(function(){
+//			 var sectionOffset = $(this.hash).offset().top - 40;
+//			 if (sectionOffset <= scrollbarLocation){
+//				 $(this).parent().addClass('active');
+//				 $(this).parent().siblings().removeClass('active');
+//			 }
+//		 });
+//	})
 	});

@@ -8,6 +8,10 @@
     
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/owl.carousel.css" />
+	<link rel="stylesheet" href="./css/animate.css" />
+	<link rel="stylesheet" href="./css/ionicons.min.css" />
+	<link rel="stylesheet" href="./css/owl.theme.css" />
 	<link rel="shortcut icon" type="img/jpg" href="./img/how.jpg" />
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
     <script type="text/javascript" src="./bootstrap-3.3.7-dist/js/js/jquery.min.js"></script>
@@ -43,22 +47,25 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="#services">Services</a>
+                    <a class="scroll" href="#services">Services</a>
                 </li>
                 <li>
-                    <a href="#facilities">Facilities</a>
+                    <a class="scroll" href="#facilities">Facilities</a>
                 </li>
                 <li>
-                    <a href="#how">How it works</a>
+                    <a class="scroll" href="#how">How it works</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a class="scroll" href="#contact">Contact</a>
                 </li>
                 <li>
-                    <a href="#team">Team</a>
+                    <a class="scroll" href="#team">Team</a>
                 </li>
                 <li>
-                    <a href="#">Help</a>
+                    <a class="scroll" href="#partner" >Partners</a>
+                </li>
+				<li>
+                    <a class="scroll" href="#">Help</a>
                 </li>
             </ul>
 			<p class="cancel_nav" style="color: aliceblue;">&times;</p>
@@ -148,12 +155,87 @@
         </div>
        
         <div class="btn-grp">
-            <button class="btn btn-default">Get an Ambulance</button>
+            <button class="btn btn-default" id="get_me_now">Get an Ambulance</button>
             <button class="btn btn-primary">Learn More!</button>
         </div>
         </div>
         </div>
 
+<!--	get an ambulance section -->
+	<div class="clearfix"></div>
+	<div class="get_amb">
+	<div class="container">
+		<div class="get_amb_cont">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6" id="health_col">
+			<h1 > Health Tips</h1>
+	<div style="" id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+		<div class="thumbnail caro_thumb">
+		<img class="img-circle img_crc" src="./Healt_tips/panic.jpg" />
+    <p class="thumb_p" > it is very important you stay calm and make sure you not putting yourself or anyone else in jeopardy.</p>
+		</div>
+      </div>
+	  <div class="item">
+		<div class="thumbnail caro_thumb">
+		<img class="img-circle img_crc" src="./Healt_tips/lg.png" />
+			<h5>Rule of thumb: </h5>
+    <p class="thumb_p" >When Something scares you ,contact us or go to the hospital, we can not 
+			say wether it is an emergency or not</p>
+		</div>
+      </div>
+	  <div class="item">
+	<div class="thumbnail caro_thumb">
+		<img class="img-circle img_crc" src="./Healt_tips/110x70_5_heart_rate_myths_debunked_features.jpg" />
+			<h4>Do You Know?</h4>
+    <p class="thumb_p" ><b>Chest Pain : </b> If Someone grabs their chest and says "my chest hurts,assume it's a heart attack, chest pain is a heart attack until proven otherwise.<br />
+		NB:AnyOne Can Have Heart Attack"</p>
+		</div>
+      </div>
+	  <div class="item">
+		<div class="thumbnail caro_thumb">
+		<img class="img-circle img_crc" src="./Healt_tips/110x70_5_heart_rate_myths_debunked_features.jpg" />
+			<h4>Do You Know?</h4>
+    <p class="thumb_p" ><b>Bleeding :</b> When Someone cuts their fingers,they think are going to bleed to death, people don't understand that there are nine units of blood in the body,the parts of the body bleeds alot are the scalps,fingers and toes</p>
+		</div>
+      </div>
+    </div>
+  </div>
+  <!-- Left and right controls -->
+<div class="" style="margin-top:10px;">
+	 <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+			<div class="col-lg-6 col-md-6 col-sm-6">
+			<h1> Get It Now</h1>
+				<h3> Tell us your nearest Bus Stop</h3>
+				<input type="text" class="form-control" placeholder="Enter Your Nearest Bus-Stop " />
+				<button class="btn btn-danger">Send Request</button>
+			</div>
+			</div>
+		</div>
+		</div>
+		<div class="cover" style="background-color: red;"></div>
+			</div>
+
+	
         <!-- services section -->
         <div class="hed" id="services">
             <div class="container">
@@ -165,20 +247,20 @@
                 </div>
                 <div class="row">
                     <div class="col-md-3">
-                        <h3>Air Ambulances service</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <h3  class="wow fadeInDown" data-wow-delay="0.2s">Air Ambulances service</h3>
+                        <p>Air Medical Service is a comprehensive term covering the use of air transportation,airplane or helicopter, to move patients to and from healthcare facilities and accident scenes
                             <a href="#">Learn more....</a>
                         </p>
                     </div>
                     <div class="col-md-3">
-                        <h3>Car Ambulances service</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <h3 class="wow fadeInDown" data-wow-delay="0.2s">Car Ambulances service</h3>
+                        <p>Ambulance is a vehicle which can transport medical patients to treatment and in some instances will also provide out of hospital medical care....
                             <a href="#">Learn more....</a>
                         </p>
                     </div>
                     <div class="col-md-3">
-                        <h3>Paramedic Care Unit</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <h3 class="wow fadeInDown" data-wow-delay="0.2s">Paramedic Care Unit</h3>
+                        <p>Paramedic is a healthcare professional who responds to medical emergencies outside of a hospital.
                             <a href="#">Learn more....</a>
                         </p>
                     </div>
@@ -190,7 +272,7 @@
         </div>
         <!--End of Amb -->
         <!-- Emergency Section -->
-        <div class="emerg" id="">
+        <div class="emerg" id="how">
             <div class="container">
                 <div class="emer">
                     <h1>Fast Track Emergency</h1>
@@ -208,6 +290,8 @@
                     <h1> Our Facilities</h1>
                     <p> We have put everything in place </p>
                 </div>
+				
+			<div class="facilities_slide" style="margin-top: 40px;">
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -220,37 +304,38 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="./img/fac1.jpg" alt="Chania">
+      <img src="./img/fac1.jpg" class="img-rounded" alt="Chania" height="900px" width="2200px">
       <div class="carousel-caption">
-        <h3>Chania</h3>
-        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        <h3>Ambulance inn</h3>
+        <p>This is a description of one of our ambulance equipments</p>
       </div>
     </div>
 
     <div class="item">
-      <img src="/img/fac2.jpg" alt="Chania">
+      <img src="/img/fac6.jpg" alt="Chania" height="900px" width="2200px">
       <div class="carousel-caption">
-        <h3>Chania</h3>
-        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        <h3>Ambulance inn</h3>
+        <p>This is a description of one of our ambulance equipments</p>
       </div>
     </div>
 
     <div class="item">
-      <img src="/img/fac3.jpg" alt="Flower">
+      <img src="/img/fac3.jpg" alt="Flower" height="900px" width="2200px">
       <div class="carousel-caption">
-        <h3>Flowers</h3>
-        <p>Beatiful flowers in Kolymbari, Crete.</p>
+        <h3>Ambulance inn</h3>
+        <p>This is a description of one of our ambulance equipments</p>
       </div>
     </div>
 
     <div class="item">
-      <img src="/img/fac4.jpg" alt="Flower">
+      <img src="/img/fac4.jpg" alt="Flower" height="900px" width="2200px">
       <div class="carousel-caption">
-        <h3>Flowers</h3>
-        <p>Beatiful flowers in Kolymbari, Crete.</p>
+       <h3>Ambulance inn</h3>
+        <p>This is a description of one of our ambulance equipments</p>
       </div>
     </div>
   </div>
+					
 
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -262,14 +347,9 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-                <!--
-        			<div class="facilities_con">
-        			<i class="fa fa-hand-o-down"></i>
-        			<h4> Our facilities are Well Intact</h4>
-        			</div>
-        		-->
-            </div>
-        </div>
+</div>
+ </div>
+   </div>
         
         <!--	Subscribe-->
         <div class="sub">
@@ -369,34 +449,36 @@
                         <div class="container">
                             <div class="col-lg-2 col-md-2">
                                 <a href="#">
-                                    <img src="./img/Emt_logo_Web.jpg" />
+                                    <img src="./img/Emt_logo_Web.jpg" height="70px" />
                                 </a>
                             </div>
+                            <div class="col-lg-2 col-md-2" style="margin-top: 10px;">
+                                <a href="#">
+                                    <img src="./img/amb_ng.png" height="60px" width="200px"/>
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-md-2" style="margin-left: 50px;">
+                                <a href="#">
+                                    <img src="./img/Fd.jpg" height="50px" width="150px" />
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-md-2" style="margin-left:90px;">
+                                <a href="#">
+                                    <img src="./img/logo.png" height="50px" />
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-md-2" style="margin-left: 20px;margin-top:-10px;">
+                                <a href="#">
+                                    <img src="./img/bran.jpg" height="70px"  />
+                                </a>
+                            </div>
+<!--
                             <div class="col-lg-2 col-md-2">
                                 <a href="#">
-                                    <img src="./img/Emt_logo_Web.jpg" />
+                                    <img src="./img/Emt_logo_Web.jpg" height="100px" />
                                 </a>
                             </div>
-                            <div class="col-lg-2 col-md-2">
-                                <a href="#">
-                                    <img src="./img/Emt_logo_Web.jpg" />
-                                </a>
-                            </div>
-                            <div class="col-lg-2 col-md-2">
-                                <a href="#">
-                                    <img src="./img/Emt_logo_Web.jpg" />
-                                </a>
-                            </div>
-                            <div class="col-lg-2 col-md-2">
-                                <a href="#">
-                                    <img src="./img/Emt_logo_Web.jpg" />
-                                </a>
-                            </div>
-                            <div class="col-lg-2 col-md-2">
-                                <a href="#">
-                                    <img src="./img/Emt_logo_Web.jpg" />
-                                </a>
-                            </div>
+-->
                         </div>
         
         
@@ -435,7 +517,7 @@
                         <div class="col-lg-4">
                             <img src="img/seun.jpg" class="img-circle" height="200px" width="200px" />
                             <h4 class="Team_ha"> Seun --- Business Analyst </h4>
-                            <p>lorem iplsj dvnKn djvnZKDVnnvdvk jvsdjvnk jndjvK jcbSDJBj jbdvjBcj b jSDBj jbj sB bjb j</p>
+                            <p class="seun_cont">A passionate and energetic lady,who is passionate about growth and good performance</p>
                             <p class="team_ico">
                                 <a href="">
                                     <i class="fa fa-facebook" style="background: blue;color:white;padding:10px;"></i>
@@ -451,7 +533,7 @@
                         <div class="col-lg-4">
                             <img src="img/gra.jpg" class="img-circle" height="200px" width="200px" />
                             <h4 class="Team_ha"> Azubuike --- Group Co-Ordinator </h4>
-                            <p>lorem iplsj dvnKn djvnZKDVnnvdvk jvsdjvnk jndjvK jcbSDJBj jbdvjBcj b jSDBj jbj sB bjb j</p>
+                            <p class="seun_cont">A Passionate and energetic guy, who is so passionate about technology and style</p>
                             <p class="team-ic">
                                 <a href="">
                                     <i style="background-color:blue;color:white;padding:10px;" class="fa fa-facebook"></i>
