@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>H.O.W</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+	<link rel="shortcut icon" type="img/jpg" href="./img/how.jpg" />
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+    <script type="text/javascript" src="./bootstrap-3.3.7-dist/js/js/jquery.min.js"></script>
+	<script type="text/javascript" src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script type=text/javascript src="./bootstrap-3.3.7-dist/js/jquery.localScroll-2.0.0/jquery.localScroll-2.0.0/jquery.localScroll.js"></script>
+    <script type="text/javascript" src="./bootstrap-3.3.7-dist/js/js/jquery.flexslider-min.js"></script>
+	 <script type="text/javascript" src="./bootstrap-3.3.7-dist/js/js/jquery.backtotop.js"></script>
+	 <script type="text/javascript" src="./bootstrap-3.3.7-dist/js/js/jquery.mobilemenu.js"></script>
+	 <script type="text/javascript" src="./bootstrap-3.3.7-dist/js/js/main.js"></script>
+	
+
+</head>
+<body>
+<!--	Beginning of Navbar -->
+	<div id="header">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="index.html">
+               <img src="/img/how.jpg" height="30px" width="30px" class="img_icon"  /> 
+			</a>
+		</div>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav mynav">
+				
+                <li id="active">
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="#facilities">Facilities</a>
+                </li>
+                <li>
+                    <a href="#how">How it works</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#team">Team</a>
+                </li>
+                <li>
+                    <a href="#">Help</a>
+                </li>
+            </ul>
+			<p class="cancel_nav" style="color: aliceblue;">&times;</p>
+            <ul class="nav navbar-nav navbar-right">
+                <button class="btn btn-warning bit">Join us</button>
+
+                <button class="btn btn-default bat">
+                    <i class="fa fa-search"></i>
+					<div class="sear">
+					 <input type="text" class="search_input" placeholder="search for ambulance..."  />
+						<input type="submit" value="submit" class="search_submit" />
+					</div>
+                </button>
+            </ul>
+        </div>
+    </div>
+</nav>
+	</div>
+<!--Navbar Ends Here -->
+
+<!--	Amb Section -->
+<div class="amb">
+    <div class="container">
+        <div class="rat">
+			<div class="comp">
+			<h1> Complete The Form Below </h1>
+			</div>
+            <div class="container-fluid thumbnail">
+                <div class="cancel">
+				<i class="fa fa-remove (alias) ext"></i>
+				</div>
+                <form>
+                    <p class="gov">Name</p>
+                    <input class="form-control" placeholder="Name of Organisation..." type="text" required=required name="Name of organisation">
+        
+                    <p class="gov"> Pick up location</p>
+                    <select class="form-control" name="location">
+                        <option value="Ikeja">Ikeja</option>
+                        <option value="Surulere">Surulere</option>
+                        <option value="Ojo">Ojo</option>
+                        <option value="Alimosho">Alimosho</option>
+                        <option value="Shomolu">Shomolu</option>
+                        <option value="Ifako-ijaye">Ifako-ijaye</option>
+                        <option value="Lagos mainland">Lagos mainland</option>
+                        <option value="Amuwo-odofin">Amuwo-odofin</option>
+                        <option value="Oshodi-isolo">Oshodi-isolo</option>
+                        <option value="Eti-osa">Eti-osa</option>
+                        <option value="Agege">Agege</option>
+                        <option value="Apapa">Apapa</option>
+                        <option value="Epe">Epe</option>
+                        <option value="Ibeju-lekki">Ibeju-lekki</option>
+                        <option value="Badagry">Badagry</option>
+                        <option value="Lagos-island">Lagos-island</option>
+                        <option value="Kosofe">Kosofe</option>
+                        <option value="Mushin">Mushin</option>
+                        <option value="Ojo">Ojo</option>
+                        <option value="Ikorodu">Ikorodu</option>
+                        <option value="Ajeromi-ifelodun">Ajeromi-ifelodun</option>
+                    </select>
+                    <br>
+        
+                    <p>Company Email Address</p>
+                    <input type="text" class="form-control" placeholder="Enter company's email address..." required=required name="company's email address">
+                    <br>
+        
+                    <p>Company's Phone Number</p>
+                    <input class="form-control" type="text" placeholder="Enter company's phone number......." name="Company phone number">
+        
+                    <p>Name of Rep</p>
+                    <input type="text" class="form-control" required=required placeholder="Enter name of rep..." name="Name of Rep">
+        
+                    <p>Gender
+                        <input type="radio">
+                        <span>Male</span>
+                        <input type="radio">
+                        <span>Female</span>
+                    </p>
+        
+                    <br>
+                    <button class="btn btn-default" type="submit">Submit</button>
+                </form>  
+                <div id="cover" style="background: red;"> </div>
+            </div>
+        </div>
+        <div class="head-content">
+            <h1 id="het-content">HealthCare Within Your Reach</h1>
+        </div>
+       
+        <div class="btn-grp">
+            <button class="btn btn-default">Get an Ambulance</button>
+            <button class="btn btn-primary">Learn More!</button>
+        </div>
+        </div>
+        </div>
+
+        <!-- services section -->
+        <div class="hed" id="services">
+            <div class="container">
+                <h1>Our Services </h1>
+                <div class="brd"> </div>
+                <div class="hed-content">
+                    <i class="fa fa-angle-double-right"></i>
+                    <p id="pip">We provide the following services.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3>Air Ambulances service</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            <a href="#">Learn more....</a>
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Car Ambulances service</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            <a href="#">Learn more....</a>
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Paramedic Care Unit</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            <a href="#">Learn more....</a>
+                        </p>
+                    </div>
+                </div>
+                <a href="#">Click here to view more
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+        <!--End of Amb -->
+        <!-- Emergency Section -->
+        <div class="emerg" id="">
+            <div class="container">
+                <div class="emer">
+                    <h1>Fast Track Emergency</h1>
+                    <div class="btn-typ">
+                        <button class="btn btn-danger">Get an Ambulance</button>
+                        <button class="btn btn-primary">Place Your Call !</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--	Facilities Section -->
+        <div class="well well-lg well-sm" id="facilities">
+            <div class="container">
+                <div class="facilities_content_header">
+                    <h1> Our Facilities</h1>
+                    <p> We have put everything in place </p>
+                </div>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="./img/fac1.jpg" alt="Chania">
+      <div class="carousel-caption">
+        <h3>Chania</h3>
+        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="/img/fac2.jpg" alt="Chania">
+      <div class="carousel-caption">
+        <h3>Chania</h3>
+        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="/img/fac3.jpg" alt="Flower">
+      <div class="carousel-caption">
+        <h3>Flowers</h3>
+        <p>Beatiful flowers in Kolymbari, Crete.</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="/img/fac4.jpg" alt="Flower">
+      <div class="carousel-caption">
+        <h3>Flowers</h3>
+        <p>Beatiful flowers in Kolymbari, Crete.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+                <!--
+        			<div class="facilities_con">
+        			<i class="fa fa-hand-o-down"></i>
+        			<h4> Our facilities are Well Intact</h4>
+        			</div>
+        		-->
+            </div>
+        </div>
+        
+        <!--	Subscribe-->
+        <div class="sub">
+            <div class="container">
+                <div class="sub-header">
+                    <h1>Subscribe to Our NewsLetter</h1>
+                </div>
+                <div class="sub-content">
+                    <i class="fa fa-angle-double-right"></i>
+                    <p>The Next Move is Yours</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 cl">
+						<div id="t-dwn"></div>
+                        <p class="clp">We will not send you content not related to the code and conduct of usage, messages not related to health
+                            Related issues or spam messages will not be send,if such is received feel free to report such to our
+                            customer Care Unit.
+                        </p>
+                    </div>
+                    <div class="col-md-6 cmd">
+                        <label class="eml" for="email">Enter Your Email Address Here:</label>
+                        <div class="input-group">
+                            <input type="text" required="required" placeholder="Enter Your Email address" class="form-control frm">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default">Subscribe</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--	Customer Service Unit -->
+        <div class="emergency" id="contact">
+            <div class="container">
+                <div class="chk">
+                    <h1>Customer Service</h1>
+                    <p>How Can we Serve You Better</p>
+                </div>
+                <div class="contact">
+                    <div class="head">
+                        <i class="fa fa-angle-double-right faga"></i>
+                        <h3>Contact Us</h3>
+                    </div>
+                    <div class="container-fluid">
+                        <div id="had">
+                            <i class="fa fa-hand-o-right"></i>
+                            <h4 id="hrt">Do you have any suggestion, request or complains, Our Service are on 24/7</h4>
+        
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <form method="post" action="">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="input-group input-group-lg">
+                                        <span class="input-group-addon" id="sizing-addon1">
+                                            <i class="fa fa-user"></i>
+                                        </span>
+                                        <input type="text" class=" form-control frm" required="required" placeholder="Enter Full Name Here...">
+                                    </div>
+                                    <div class="input-group prt input-group-lg">
+                                        <span class="input-group-addon" id="sizing-addon1">
+                                            <i class="fa fa-envelope"></i>
+                                        </span>
+                                        <input type="email" class=" form-control frm" required="required" placeholder="Enter Email Here...">
+                                    </div>
+                                    <div class="input-group prt input-group-lg">
+                                        <span class="input-group-addon" id="sizing-addon1">
+                                            <i class="fa fa-phone"></i>
+                                        </span>
+                                        <input type="phone" class="form-control frm" required="required" placeholder="Enter Contact Number...">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 clo">
+                                    <div class="input-group">
+                                        <textarea cols="80" rows="8" class="txt_area" maxlength="500" required="required" placeholder="Write something here ......."></textarea>
+										<div class="textarea-feedback"></div>
+                                        <button type="button" class="btn btn-danger bd">Submit Your Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+        
+        <!--	Partners Section-->
+        <div class="part_section" id="partner">
+            <div class="container">
+                <div class="part_content">
+                    <h1> Our Partners</h1>
+                    <div class="brd"></div>
+                    <div class="row">
+                        <div class="container">
+                            <div class="col-lg-2 col-md-2">
+                                <a href="#">
+                                    <img src="./img/Emt_logo_Web.jpg" />
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-md-2">
+                                <a href="#">
+                                    <img src="./img/Emt_logo_Web.jpg" />
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-md-2">
+                                <a href="#">
+                                    <img src="./img/Emt_logo_Web.jpg" />
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-md-2">
+                                <a href="#">
+                                    <img src="./img/Emt_logo_Web.jpg" />
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-md-2">
+                                <a href="#">
+                                    <img src="./img/Emt_logo_Web.jpg" />
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-md-2">
+                                <a href="#">
+                                    <img src="./img/Emt_logo_Web.jpg" />
+                                </a>
+                            </div>
+                        </div>
+        
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--		Team Section -->
+        <div class="Our_team" id="team">
+            <div class="container">
+                <div class="team">
+                    <h1> Meet Our Team </h1>
+                    <p id="pop">Be part of Our Team</p>
+                    <div class="row" style="margin-top:50px;
+        									margin-left: 60px;">
+                        <div class="col-lg-4">
+                            <img src="img/rennie.jpg" class="img-circle" height="200px" width="200px" />
+                .            <h4 class="Team_ha" style=""> Rennie --- Group Leader </h4>
+                            <p>lorem iplsj dvnKn djvnZKDVnnvdvk jvsdjvnk jndjvK jcbSDJBj jbdvjBcj b jSDBj jbj sB bjb j</p>
+                            <div class="icons" style="margin-left:50px;">
+                                <p class="team_icons">
+                                    <a href="">
+                                        <i style="background-color:cornflowerblue;color:white;padding:10px;" class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="">
+                                        <i style="background-color:cornflowerblue;color:white;padding:10px;" class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="">
+                                        <i style="background-color:aquamarine;color:white;padding:10px;" class="fa fa-skype"></i>
+                                    </a>
+                                </p>
+                            </div>
+        
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/seun.jpg" class="img-circle" height="200px" width="200px" />
+                            <h4 class="Team_ha"> Seun --- Business Analyst </h4>
+                            <p>lorem iplsj dvnKn djvnZKDVnnvdvk jvsdjvnk jndjvK jcbSDJBj jbdvjBcj b jSDBj jbj sB bjb j</p>
+                            <p class="team_ico">
+                                <a href="">
+                                    <i class="fa fa-facebook" style="background: blue;color:white;padding:10px;"></i>
+                                </a>
+                                <a href="">
+                                    <i style="background-color:cornflowerblue;color:white;padding:10px;" class="fa fa-twitter"></i>
+                                </a>
+                                <a href="">
+                                    <i style="background-color:aquamarine;color:white;padding:10px;" class="fa fa-skype"></i>
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/gra.jpg" class="img-circle" height="200px" width="200px" />
+                            <h4 class="Team_ha"> Azubuike --- Group Co-Ordinator </h4>
+                            <p>lorem iplsj dvnKn djvnZKDVnnvdvk jvsdjvnk jndjvK jcbSDJBj jbdvjBcj b jSDBj jbj sB bjb j</p>
+                            <p class="team-ic">
+                                <a href="">
+                                    <i style="background-color:blue;color:white;padding:10px;" class="fa fa-facebook"></i>
+                                </a>
+                                <a href="">
+                                    <i style="background-color:cornflowerblue;color:white;padding:10px;" class="fa fa-skype"></i>
+                                </a>
+                                <a href="">
+                                    <i style="background-color:blue;color:white;padding:10px;" class="fa fa-twitter"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--	Footer Section -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <label> About Us</label>
+                        <p id="about_content">We provide a platform whereby we connect Ambulance services to emergency patients. We discover that when
+                            there are emergencies maybe car accident or domestic accident, people dont know emergency services to
+                            call but with our platform Healthcare on wheels(H.O.W ).</p>
+                        <p id="about_content">Just with the click of a button, we connect ambulance services to patiences In need of Them </p>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <label>Contact Us</label>
+                        <p id="contact_content">You can contact us through our social media Platform </p>
+                        <p class="contact_icon">
+                            <a href="http://www.facebook.com/healthonwheels.ng">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-google-plus-square"></i>
+                            </a>
+                        </p>
+                        <p class="contact_cal">
+                            <i class="fa fa-phone"></i> 07000800970
+                        </p>
+                    </div>
+        
+                    <div class="col-lg-4 colo">
+                        <label>Download App Now</label>
+                        <div class="row colo_new_row" style="">
+                            <div class="col-lg-6 col-md-6">
+                                <a href="#" class="col_link">
+                                    <h5>Get Our Mobile App
+                                        <br />
+                                        <i class="fa fa-apple"></i> App Store
+                                    </h5>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <a href="#" class="col_link">
+                                    <h5>Get Our Mobile App
+                                        <br />
+                                        <i class="fa fa-play"></i> Google Playstore
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h6> All Right Reserved &copy; 2018 . Terms of usage is free</h6>
+        </div>
+</body>
+</html>
