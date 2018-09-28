@@ -8,16 +8,11 @@
     
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
-<!--
-	<link rel="stylesheet" href="./css/owl.carousel.css" />
-	<link rel="stylesheet" href="./css/animate.css" />
-	<link rel="stylesheet" href="./css/ionicons.min.css" />
-	<link rel="stylesheet" href="./css/owl.theme.css" />
--->
 	<link rel="shortcut icon" type="img/jpg" href="./img/how.jpg" />
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
     <script type="text/javascript" src="./bootstrap-3.3.7-dist/js/js/jquery.min.js"></script>
 	<script type="text/javascript" src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./bootstrap-3.3.7-dist/js/js/jquery.validate.js"></script>
 	 <script type="text/javascript" src="./bootstrap-3.3.7-dist/js/js/main.js"></script>
 	
 
@@ -153,7 +148,7 @@
         </div>
        
         <div class="btn-grp">
-            <button class="btn btn-default" id="get_me_now">Get an Ambulance</button>
+            <button class="btn btn-default" id="get_me_now"><a style="color:red; text-decoration: none;" href="get_amb.html">Get an Ambulance</a></button>
             <button class="btn btn-primary">Learn More!</button>
         </div>
         </div>
@@ -161,79 +156,6 @@
 
 <!--	get an ambulance section -->
 	<div class="clearfix"></div>
-	<div class="get_amb">
-	<div class="container">
-		<div class="get_amb_cont">
-		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-6" id="health_col">
-			<h1 > Health Tips</h1>
-	<div style="" id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-		<div class="thumbnail caro_thumb">
-		<img class="img-circle img_crc" src="./Healt_tips/panic.jpg" />
-    <p class="thumb_p" > it is very important you stay calm and make sure you not putting yourself or anyone else in jeopardy.</p>
-		</div>
-      </div>
-	  <div class="item">
-		<div class="thumbnail caro_thumb">
-		<img class="img-circle img_crc" src="./Healt_tips/lg.png" />
-			<h5>Rule of thumb: </h5>
-    <p class="thumb_p" >When Something scares you ,contact us or go to the hospital, we can not 
-			say wether it is an emergency or not</p>
-		</div>
-      </div>
-	  <div class="item">
-	<div class="thumbnail caro_thumb">
-		<img class="img-circle img_crc" src="./Healt_tips/110x70_5_heart_rate_myths_debunked_features.jpg" />
-			<h4>Do You Know?</h4>
-    <p class="thumb_p" ><b>Chest Pain : </b> If Someone grabs their chest and says "my chest hurts,assume it's a heart attack, chest pain is a heart attack until proven otherwise.<br />
-		NB:AnyOne Can Have Heart Attack"</p>
-		</div>
-      </div>
-	  <div class="item">
-		<div class="thumbnail caro_thumb">
-		<img class="img-circle img_crc" src="./Healt_tips/110x70_5_heart_rate_myths_debunked_features.jpg" />
-			<h4>Do You Know?</h4>
-    <p class="thumb_p" ><b>Bleeding :</b> When Someone cuts their fingers,they think are going to bleed to death, people don't understand that there are nine units of blood in the body,the parts of the body bleeds alot are the scalps,fingers and toes</p>
-		</div>
-      </div>
-    </div>
-  </div>
-  <!-- Left and right controls -->
-<div class="" style="margin-top:10px;">
-	 <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</div>
-			<div class="col-lg-6 col-md-6 col-sm-6">
-			<h1> Get It Now</h1>
-				<h3> Tell us your nearest Bus Stop</h3>
-				<input type="text" class="form-control" placeholder="Enter Your Nearest Bus-Stop " />
-				<button class="btn btn-danger">Send Request</button>
-			</div>
-			</div>
-		</div>
-		</div>
-		<div class="cover" style="background-color: red;"></div>
-			</div>
-
-	
         <!-- services section -->
         <div class="hed" id="services">
             <div class="container">
@@ -399,31 +321,31 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <form method="post" action="" id="form">
+                        <form method="post" action="index.html" id="form">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="input-group input-group-lg">
                                         <span class="input-group-addon" id="sizing-addon1">
                                             <i class="fa fa-user"></i>
                                         </span>
-                                        <input type="text" id="name" class=" form-control frm" required="required" placeholder="Enter Full Name Here...">
+                                        <input type="text" name="name" class=" form-control frm" required="required" placeholder="Enter Full Name Here...">
                                     </div>
                                     <div class="input-group prt input-group-lg">
                                         <span class="input-group-addon" id="sizing-addon1">
                                             <i class="fa fa-envelope"></i>
                                         </span>
-                                        <input type="email" id="email" class=" form-control frm" required="required" placeholder="Enter Email Here...">
+                                        <input type="email" name="email" class=" form-control frm" required="required" placeholder="Enter Email Here...">
                                     </div>
                                     <div class="input-group prt input-group-lg">
                                         <span class="input-group-addon" id="sizing-addon1">
                                             <i class="fa fa-phone"></i>
                                         </span>
-                                        <input type="phone" id="phone" class="form-control frm" required="required" placeholder="Enter Contact Number...">
+                                        <input type="phone" name="phone" class="form-control frm" required="required" placeholder="Enter Contact Number...">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 clo">
                                     <div class="input-group">
-                                        <textarea  id="msg" cols="80" rows="8" class="txt_area" maxlength="500" required="required" placeholder="Write something here ......."></textarea>
+                                        <textarea  name="msg" cols="80" rows="8" class="txt_area" maxlength="500" required="required" placeholder="Write something here ......."></textarea>
 										<div class="textarea-feedback"></div>
                                         <button type="button" id="submit" class="btn btn-danger bd">Submit Your Message</button>
                                     </div>
@@ -548,8 +470,8 @@
 					      <div class="row" style="margin-top:50px; margin-left: 10pc;
         									">
                         <div class="col-lg-6">
-                            <img src="img/seun.jpg" class="img-circle" height="200px" width="200px" />
-                            <h4 class="Team_ha"> Peter --- Business Analyst </h4>
+                            <img src="img/pet.jpg" class="img-circle" height="200px" width="200px" />
+                            <h4 class="Team_ha"> Peter --- Developer </h4>
                             <p class="seun_cont">A passionate and energetic lady,who is passionate about growth and good performance</p>
                             <p class="team_ico">
                                 <a href="">
@@ -564,8 +486,8 @@
                             </p>
                         </div>
                         <div class="col-lg-6">
-                            <img src="img/gra.jpg" class="img-circle" height="200px" width="200px" />
-                            <h4 class="Team_ha"> Ayodele --- Group Co-Ordinator </h4>
+                            <img src="img/ay%20(1).jpg" class="img-circle" height="200px" width="200px" />
+                            <h4 class="Team_ha"> Ayodele --- Group Developer </h4>
                             <p class="seun_cont">A Passionate and energetic guy, who is so passionate about technology and style</p>
                             <p class="team-ic">
                                 <a href="">

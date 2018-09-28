@@ -7,9 +7,12 @@ $(document).ready(function(){
 	$(".rat").on('click' , function(){
 		if($(event.target).is(".cancel .ext")){
 			$(".cover").fadeOut('slow');
-	$(".rat").fadeOut('slow');					  
+	$(".rat").fadeOut('slow');		  
 	}
 	});
+	$('#btr').on('click' , function(){
+		alert('This button is clicked')
+	})
 	$('.bat').on('click' , function(){
 			$('.sear').fadeIn(2000);
 			$('.btn_search').fadeIn(2000);
@@ -73,19 +76,7 @@ window.addEventListener("scroll", Scroll);
 		$('body,html').animate({
 			scrollTop:0
 		},duration);
-	})
-
 	});
-//	function chk_empty(submit){
-//		if(document.getElementById('name').value == "" ||
-//		  document.getElementById('email').value == "" ||
-//		  document.getElementById('phone').value == "" ||
-//		  document.getElementById('msg').value == "" ||){
-//		   alert ("Fill All Fields ! ");
-//		   }else{
-//			   document.getElementById('form').submit();
-//			   
-//			   alert("Your response has been recorded..")
-//		   }
-//	}
-//	chk_empty(submit);
+});
+
+

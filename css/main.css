@@ -376,6 +376,48 @@ margin-top: 40px;
 	padding-right: 5px;
 }
 /*end of Pop up*/
+/* get_amb page design */
+.back_index{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	float: right;
+}
+.back_index a{
+	color: red;
+	background: black;
+	border-radius: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: 'Roboto-Bold.ttf';
+	text-decoration: none;
+}
+#get_col h1{
+	color:darkkhaki;
+	font-family: 'Roboto-Black.ttf';
+	font-weight: 600;
+}
+#get_col h3{
+	color: aquamarine;
+}
+/*payment styling*/
+  .Payment {
+	  display: none;
+            margin-left:100px ;
+            margin-top: 20px;
+            width: 500px;
+            
+            
+        }
+          .wor .col-lg-4{
+              width:160px;
+              background-color: skyblue;
+              padding: 30px;
+          }
+/*end of payment style*/
 /*Facilities Design */
 .well{
 	border: 0px;
