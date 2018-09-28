@@ -405,12 +405,10 @@ margin-top: 40px;
 }
 /*payment styling*/
   .Payment {
-	  display: none;
+	  		display: none;
             margin-left:100px ;
             margin-top: 20px;
-            width: 500px;
-            
-            
+            width: 500px; 
         }
           .wor .col-lg-4{
               width:160px;

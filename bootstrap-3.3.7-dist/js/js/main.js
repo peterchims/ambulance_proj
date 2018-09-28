@@ -11,7 +11,7 @@ $(document).ready(function(){
 	}
 	});
 	$('#btr').on('click' , function(){
-		alert('This button is clicked')
+		$('#pay_methd').fadeIn();
 	})
 	$('.bat').on('click' , function(){
 			$('.sear').fadeIn(2000);
