@@ -11,7 +11,13 @@ $(document).ready(function(){
 	}
 	});
 	$('#btr').on('click' , function(){
+		$('.get_amb_cont').fadeOut();
 		$('#pay_methd').fadeIn();
+	});
+	$('#proceed').on('click',function(){
+		$('#pay_methd').fadeOut();
+		alert ("An ambulance Will Be with you Shortly..")
+		
 	})
 	$('.bat').on('click' , function(){
 			$('.sear').fadeIn(2000);
