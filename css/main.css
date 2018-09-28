@@ -649,18 +649,19 @@ margin-left: 30px;
 	padding: 20px;
 }
 .back_top{
-	position:absolute;
-	bottom: 0px;
+	position:fixed;
+	bottom: 10px;
 	right: 10px;
-	background: red;
+	background:skyblue;
 	color: green;
 	padding: 9px 12px;
 	border-radius: 5px;
 }
 .back_top:hover{
-	background-color: #fff;
+	background-color: #000;
 }
-.back_top .fa-angle-up{
+.back_top i{
+	font-size: 20px;
 	color: green !important;
 }
 /*Responsiveness Design */

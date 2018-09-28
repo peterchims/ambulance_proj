@@ -60,6 +60,20 @@ window.addEventListener("scroll", Scroll);
 			scrollTop: $(this.hash).offset().top
 		}, 1000);
 	});
+	var offset = 250;
+	var duration = 500;
+	$(window).scroll(function(){
+		if($(this).scrollTop() > offset){
+			$('.back_top').fadeIn(duration);
+		}else{
+			$('.back_top').fadeOut(duration);
+		}
+	});
+	$('.back_top').click(function(){
+		$('body,html').animate({
+			scrollTop:0
+		},duration);
+	})
 
 	});
 //	function chk_empty(submit){
