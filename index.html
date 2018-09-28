@@ -8,10 +8,12 @@
     
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
+<!--
 	<link rel="stylesheet" href="./css/owl.carousel.css" />
 	<link rel="stylesheet" href="./css/animate.css" />
 	<link rel="stylesheet" href="./css/ionicons.min.css" />
 	<link rel="stylesheet" href="./css/owl.theme.css" />
+-->
 	<link rel="shortcut icon" type="img/jpg" href="./img/how.jpg" />
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
     <script type="text/javascript" src="./bootstrap-3.3.7-dist/js/js/jquery.min.js"></script>
@@ -33,7 +35,7 @@
             </button>
 
             <a class="navbar-brand" href="index.html">
-               <img src="/img/how.jpg" height="30px" width="30px" class="img_icon"  /> 
+				<img src="./img/how.jpg" height="30px" width="30px" class="img_icon"  />
 			</a>
 		</div>
         <div class="collapse navbar-collapse" id="navbar">
@@ -308,7 +310,7 @@
     </div>
 
     <div class="item">
-      <img src="/img/fac6.jpg" alt="Chania" height="900px" width="2200px">
+      <img src="./img/fac6.jpg" alt="Chania" height="900px" width="2200px">
       <div class="carousel-caption">
         <h3>Ambulance inn</h3>
         <p>This is a description of one of our ambulance equipments</p>
@@ -316,7 +318,7 @@
     </div>
 
     <div class="item">
-      <img src="/img/fac3.jpg" alt="Flower" height="900px" width="2200px">
+      <img src="./img/fac3.jpg" alt="Flower" height="900px" width="2200px">
       <div class="carousel-caption">
         <h3>Ambulance inn</h3>
         <p>This is a description of one of our ambulance equipments</p>
@@ -324,7 +326,7 @@
     </div>
 
     <div class="item">
-      <img src="/img/fac4.jpg" alt="Flower" height="900px" width="2200px">
+      <img src="./img/fac4.jpg" alt="Flower" height="900px" width="2200px">
       <div class="carousel-caption">
        <h3>Ambulance inn</h3>
         <p>This is a description of one of our ambulance equipments</p>
@@ -397,33 +399,33 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <form method="post" action="">
+                        <form method="post" action="" id="form">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="input-group input-group-lg">
                                         <span class="input-group-addon" id="sizing-addon1">
                                             <i class="fa fa-user"></i>
                                         </span>
-                                        <input type="text" class=" form-control frm" required="required" placeholder="Enter Full Name Here...">
+                                        <input type="text" id="name" class=" form-control frm" required="required" placeholder="Enter Full Name Here...">
                                     </div>
                                     <div class="input-group prt input-group-lg">
                                         <span class="input-group-addon" id="sizing-addon1">
                                             <i class="fa fa-envelope"></i>
                                         </span>
-                                        <input type="email" class=" form-control frm" required="required" placeholder="Enter Email Here...">
+                                        <input type="email" id="email" class=" form-control frm" required="required" placeholder="Enter Email Here...">
                                     </div>
                                     <div class="input-group prt input-group-lg">
                                         <span class="input-group-addon" id="sizing-addon1">
                                             <i class="fa fa-phone"></i>
                                         </span>
-                                        <input type="phone" class="form-control frm" required="required" placeholder="Enter Contact Number...">
+                                        <input type="phone" id="phone" class="form-control frm" required="required" placeholder="Enter Contact Number...">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 clo">
                                     <div class="input-group">
-                                        <textarea cols="80" rows="8" class="txt_area" maxlength="500" required="required" placeholder="Write something here ......."></textarea>
+                                        <textarea  id="msg" cols="80" rows="8" class="txt_area" maxlength="500" required="required" placeholder="Write something here ......."></textarea>
 										<div class="textarea-feedback"></div>
-                                        <button type="button" class="btn btn-danger bd">Submit Your Message</button>
+                                        <button type="button" id="submit" class="btn btn-danger bd">Submit Your Message</button>
                                     </div>
                                 </div>
                             </div>
@@ -605,5 +607,6 @@
             </div>
             <h6> All Right Reserved &copy; 2018 . Terms of usage is free</h6>
         </div>
+	<a href="#top" class="back_top"><i class="fa fa-angle-up"></i></a>
 </body>
 </html>

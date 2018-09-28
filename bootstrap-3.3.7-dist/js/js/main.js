@@ -60,15 +60,18 @@ window.addEventListener("scroll", Scroll);
 			scrollTop: $(this.hash).offset().top
 		}, 1000);
 	});
-	// Activating Link Switching
-//	$(window).scroll(function(){
-//		var scrollbarLocation = $(this).scrollTop();
-//		 scrollLink.each(function(){
-//			 var sectionOffset = $(this.hash).offset().top - 40;
-//			 if (sectionOffset <= scrollbarLocation){
-//				 $(this).parent().addClass('active');
-//				 $(this).parent().siblings().removeClass('active');
-//			 }
-//		 });
-//	})
+
 	});
+//	function chk_empty(submit){
+//		if(document.getElementById('name').value == "" ||
+//		  document.getElementById('email').value == "" ||
+//		  document.getElementById('phone').value == "" ||
+//		  document.getElementById('msg').value == "" ||){
+//		   alert ("Fill All Fields ! ");
+//		   }else{
+//			   document.getElementById('form').submit();
+//			   
+//			   alert("Your response has been recorded..")
+//		   }
+//	}
+//	chk_empty(submit);
